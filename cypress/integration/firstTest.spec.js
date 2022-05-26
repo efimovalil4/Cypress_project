@@ -53,7 +53,7 @@
 
 
 
-//find
+//Comment find
 
 it('Using Get with Find and Eq', () => {  
     cy.visit('https://next.privat24.ua/deposit')
