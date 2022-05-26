@@ -46,14 +46,14 @@
 // });
 
 
-// it.only('By Contains name', () => {  //поиск элемента у которого класс имеет содержимое
-//     cy.visit("https://next.privat24.ua/")
-//     cy.get('*[class^="card"]')
-// });
+it('By Contains name', () => {  //поиск элемента у которого класс имеет содержимое
+    cy.visit("https://next.privat24.ua/")
+    cy.get('*[class^="card"]')
+});
 
 
 
-//Comment find
+//find
 
 it('Using Get with Find and Eq', () => {  
     cy.visit('https://next.privat24.ua/deposit')
